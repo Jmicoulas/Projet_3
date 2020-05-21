@@ -1,0 +1,118 @@
+@font-face {
+	font-family: 'biko_bold';
+	src: url('biko_bold.otf') format('truetype'),
+}
+
+body{
+	margin: 0;
+}
+
+/*Entête*/
+header{
+	background-color: #579c87;
+	color: #fdcb46;
+}
+
+#logo{
+	margin: auto;
+	text-align: center;
+	padding: 1em;
+	font-family: biko_bold;
+}
+	
+/*Corps de la page*/
+
+/*Haut*/
+#haut_section{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+#menu_1{
+	background-color: #FCDFDB;
+	color: #6C4548;
+	box-shadow: 3px 3px 10px #E0E0E0;
+}
+
+#menu_1_icone{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 50px;
+}
+
+#menu_2{
+	box-shadow: 3px 3px 10px #E0E0E0; 
+}
+
+#nom_resto_2{
+	background: linear-gradient(to right, #D8852E, #6e4ccc);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+#menu_resto_2{
+	color: #C77412;
+}
+
+/*Bas*/
+
+#bas_section{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+#menu_3{
+	box-shadow: 3px 3px 10px #E0E0E0; 
+}
+
+#nom_resto_3{
+	background: linear-gradient(to right, #0228dd, #0d8bfb);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+#menu_resto_3{
+	color: #0887FB;
+}
+
+#menu_4{
+	box-shadow: 3px 3px 10px #E0E0E0; 
+}
+
+#nom_resto_4{
+	background: linear-gradient(to right, #3d923a, #c4ff8d);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+#menu_resto_4{
+	color: #72BF56;
+}
+
+/*Prochainement*/
+
+#soon{
+	margin: auto;
+	text-align: center;
+	background-color: #579c87;
+	color: #fdcb46;
+	border-radius: 5px;
+	border: 1px #579c87 solid;
+	width: 10em;
+}
+
+/*Pied-de-page*/
+
+footer{
+	display: flex;
+	justify-content: space-between;
+	background-color: #579c87;
+	color: #fdcb46;
+}
+
+footer p{
+	padding: 1em;
+}
