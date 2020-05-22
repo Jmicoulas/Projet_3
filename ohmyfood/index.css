@@ -1,6 +1,6 @@
-@font-face {
-	font-family: 'biko_bold';
-	src: url('biko_bold.otf') format('truetype'),
+* {
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box;
 }
 
 body{
@@ -11,13 +11,12 @@ body{
 header{
 	background-color: #579c87;
 	color: #fdcb46;
+	text-align: center;
 }
 
-#logo{
-	margin: auto;
-	text-align: center;
-	padding: 1em;
-	font-family: biko_bold;
+header img{
+  	padding: 1em;
+  	width: 20em;
 }
 	
 /*Corps de la page*/
@@ -36,8 +35,6 @@ header{
 }
 
 #menu_1_icone{
-  border: 1px solid #ddd;
-  border-radius: 4px;
   padding: 5px;
   width: 50px;
 }
@@ -111,8 +108,15 @@ footer{
 	justify-content: space-between;
 	background-color: #579c87;
 	color: #fdcb46;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 footer p{
 	padding: 1em;
+	width: 10em;
+	text-align: center;
+	font-size: 1.3em;
 }
