@@ -1,0 +1,181 @@
+/*______                   _   
+ |  ____|                 | |  
+ | |__      ___    _ __   | |_ 
+ |  __|    / _ \  | '_ \  | __|
+ | |      | (_) | | | | | | |_ 
+ |_|       \___/  |_| |_|  \__|
+                               
+                               */
+
+}@font-face { /*Pour le Footer*/
+    font-family: 'sinkin_sans500_medium';
+    src: url('ressources/font/footer/SinkinSans-500Medium-webfont.eot');
+    src: url('ressources/font/footer/SinkinSans-500Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ressources/font/footer/SinkinSans-500Medium-webfont.woff2') format('woff2'),
+         url('ressources/font/footer/SinkinSans-500Medium-webfont.woff') format('woff'),
+         url('ressources/font/footer/SinkinSans-500Medium-webfont.ttf') format('truetype'),
+         url('ressources/font/footer/SinkinSans-500Medium-webfont.svg#sinkin_sans500_medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/*           _   _ 
+     /\     | | | |
+    /  \    | | | |
+   / /\ \   | | | |
+  / ____ \  | | | |
+ /_/    \_\ |_| |_|
+                   
+                   */
+
+* {
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+
+/*_______                              __     _     _                                             
+ |__   __|                            / _|   | |   | |                                            
+    | |      ___    _ __       ___   | |_    | |_  | |__     ___     _ __     __ _    __ _    ___ 
+    | |     / _ \  | '_ \     / _ \  |  _|   | __| | '_ \   / _ \   | '_ \   / _` |  / _` |  / _ \
+    | |    | (_) | | |_) |   | (_) | | |     | |_  | | | | |  __/   | |_) | | (_| | | (_| | |  __/
+    |_|     \___/  | .__/     \___/  |_|      \__| |_| |_|  \___|   | .__/   \__,_|  \__, |  \___|
+                   | |                                              | |               __/ |       
+                   |_|                                              |_|              |___/        */
+
+
+#haut_section{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	height: 20em;
+
+}
+
+#menu_1{
+	background-color: #FCDFDB;
+	color: #6C4548;
+	box-shadow: 3px 3px 10px #E0E0E0;
+	margin: 3em 1em 1em 0;
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+#menu_1_icone{
+  padding: 5px;
+  width: 50px;
+}
+
+#menu_2{
+	box-shadow: 3px 3px 10px #E0E0E0;
+	border: solid 1px black; /*à enlever*/
+	margin: 3em 0 1em 1em;
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#nom_resto_2{
+	background: linear-gradient(to right, #D8852E, #6e4ccc);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+#menu_resto_2{
+	color: #C77412;
+}
+
+/*____            _     _                                    __     _     _                                             
+ |  _ \          | |   | |                                  / _|   | |   | |                                            
+ | |_) |   ___   | |_  | |_    ___    _ __ ___       ___   | |_    | |_  | |__     ___     _ __     __ _    __ _    ___ 
+ |  _ <   / _ \  | __| | __|  / _ \  | '_ ` _ \     / _ \  |  _|   | __| | '_ \   / _ \   | '_ \   / _` |  / _` |  / _ \
+ | |_) | | (_) | | |_  | |_  | (_) | | | | | | |   | (_) | | |     | |_  | | | | |  __/   | |_) | | (_| | | (_| | |  __/
+ |____/   \___/   \__|  \__|  \___/  |_| |_| |_|    \___/  |_|      \__| |_| |_|  \___|   | .__/   \__,_|  \__, |  \___|
+                                                                                          | |               __/ |       
+                                                                                          |_|              |___/        */
+
+#bas_section{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	height: 20em;
+}
+
+#menu_3{
+	box-shadow: 3px 3px 10px #E0E0E0;
+	margin: 1em 1em 3em 0;
+	width: 20%;
+	border: solid 1px black; /*à enlever*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+#nom_resto_3{
+	background: linear-gradient(to right, #0228dd, #0d8bfb);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+#menu_resto_3{
+	color: #0887FB;
+}
+
+#menu_4{
+	box-shadow: 3px 3px 10px #E0E0E0;
+	margin:  1em 0 3em 1em;
+	width: 20%;
+	border: solid 1px black; /*à enlever*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#nom_resto_4{
+	background: linear-gradient(to right, #3d923a, #c4ff8d);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+#menu_resto_4{
+	color: #72BF56;
+}
+
+/* _____                         
+  / ____|                        
+ | (___     ___     ___    _ __  
+  \___ \   / _ \   / _ \  | '_ \ 
+  ____) | | (_) | | (_) | | | | |
+ |_____/   \___/   \___/  |_| |_|
+                                 
+                                 */
+
+#soon{
+	font-family: 'sinkin_sans500_medium';
+	font-size: 1.9em;
+	margin: auto;
+	text-align: center;
+	background-color: #579c87;
+	color: #fdcb46;
+	border-radius: 10px;
+	border: 1px #579c87 solid;
+	width: 12em;
+	height: 2em;
+	line-height: 2em;
+
+}

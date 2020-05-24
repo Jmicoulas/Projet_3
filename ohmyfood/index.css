@@ -1,3 +1,12 @@
+/*           _   _ 
+     /\     | | | |
+    /  \    | | | |
+   / /\ \   | | | |
+  / ____ \  | | | |
+ /_/    \_\ |_| |_|
+                   
+                   */
+
 * {
 	-moz-box-sizing: border-box; 
 	box-sizing: border-box;
@@ -5,9 +14,38 @@
 
 body{
 	margin: 0;
+
+
+/*______                   _   
+ |  ____|                 | |  
+ | |__      ___    _ __   | |_ 
+ |  __|    / _ \  | '_ \  | __|
+ | |      | (_) | | | | | | |_ 
+ |_|       \___/  |_| |_|  \__|
+                               
+                               */
+
+}@font-face { /*Pour le Footer*/
+    font-family: 'sinkin_sans500_medium';
+    src: url('ressources/font/footer/SinkinSans-500Medium-webfont.eot');
+    src: url('ressources/font/footer/SinkinSans-500Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ressources/font/footer/SinkinSans-500Medium-webfont.woff2') format('woff2'),
+         url('ressources/font/footer/SinkinSans-500Medium-webfont.woff') format('woff'),
+         url('ressources/font/footer/SinkinSans-500Medium-webfont.ttf') format('truetype'),
+         url('ressources/font/footer/SinkinSans-500Medium-webfont.svg#sinkin_sans500_medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
-/*Entête*/
+/*_    _                      _               
+ | |  | |                    | |              
+ | |__| |   ___    __ _    __| |   ___   _ __ 
+ |  __  |  / _ \  / _` |  / _` |  / _ \ | '__|
+ | |  | | |  __/ | (_| | | (_| | |  __/ | |   
+ |_|  |_|  \___|  \__,_|  \__,_|  \___| |_|   
+                                              
+                                              */
+
 header{
 	background-color: #579c87;
 	color: #fdcb46;
@@ -18,90 +56,16 @@ header img{
   	padding: 1em;
   	width: 20em;
 }
-	
-/*Corps de la page*/
 
-/*Haut*/
-#haut_section{
-	display: flex;
-	text-align: center;
-	justify-content: center;
-}
 
-#menu_1{
-	background-color: #FCDFDB;
-	color: #6C4548;
-	box-shadow: 3px 3px 10px #E0E0E0;
-}
-
-#menu_1_icone{
-  padding: 5px;
-  width: 50px;
-}
-
-#menu_2{
-	box-shadow: 3px 3px 10px #E0E0E0; 
-}
-
-#nom_resto_2{
-	background: linear-gradient(to right, #D8852E, #6e4ccc);
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-}
-
-#menu_resto_2{
-	color: #C77412;
-}
-
-/*Bas*/
-
-#bas_section{
-	display: flex;
-	text-align: center;
-	justify-content: center;
-}
-
-#menu_3{
-	box-shadow: 3px 3px 10px #E0E0E0; 
-}
-
-#nom_resto_3{
-	background: linear-gradient(to right, #0228dd, #0d8bfb);
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-}
-
-#menu_resto_3{
-	color: #0887FB;
-}
-
-#menu_4{
-	box-shadow: 3px 3px 10px #E0E0E0; 
-}
-
-#nom_resto_4{
-	background: linear-gradient(to right, #3d923a, #c4ff8d);
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-}
-
-#menu_resto_4{
-	color: #72BF56;
-}
-
-/*Prochainement*/
-
-#soon{
-	margin: auto;
-	text-align: center;
-	background-color: #579c87;
-	color: #fdcb46;
-	border-radius: 5px;
-	border: 1px #579c87 solid;
-	width: 10em;
-}
-
-/*Pied-de-page*/
+/*______                   _                 
+ |  ____|                 | |                
+ | |__      ___     ___   | |_    ___   _ __ 
+ |  __|    / _ \   / _ \  | __|  / _ \ | '__|
+ | |      | (_) | | (_) | | |_  |  __/ | |   
+ |_|       \___/   \___/   \__|  \___| |_|   
+                                             
+                                             */
 
 footer{
 	display: flex;
@@ -115,8 +79,9 @@ footer{
 }
 
 footer p{
+	font-family: 'sinkin_sans500_medium';
 	padding: 1em;
-	width: 10em;
+	width: 15em;
 	text-align: center;
 	font-size: 1.3em;
 }
