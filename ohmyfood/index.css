@@ -26,11 +26,10 @@ body{
                                
                                */
 
-@font-face { /*Pour le Footer*/
+@font-face { /*Pour le Footer + soon*/
     font-family: 'sinkin_sans500_medium';
     src: url('ressources/font/footer/SinkinSans-500Medium-webfont.eot');
     src: url('ressources/font/footer/SinkinSans-500Medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('ressources/font/footer/SinkinSans-500Medium-webfont.woff2') format('woff2'),
          url('ressources/font/footer/SinkinSans-500Medium-webfont.woff') format('woff'),
          url('ressources/font/footer/SinkinSans-500Medium-webfont.ttf') format('truetype'),
          url('ressources/font/footer/SinkinSans-500Medium-webfont.svg#sinkin_sans500_medium') format('svg');
@@ -38,11 +37,10 @@ body{
     font-style: normal;
 }
 
-@font-face {
+@font-face {/*menu resto 1*/
     font-family: 'dustismoregular';
     src: url('ressources/font/menu_1/menu_resto_1/dustismo-webfont.eot');
     src: url('ressources/font/menu_1/menu_resto_1/dustismo-webfont.eot?#iefix') format('embedded-opentype'),
-         url('ressources/font/menu_1/menu_resto_1/dustismo-webfont.woff2') format('woff2'),
          url('ressources/font/menu_1/menu_resto_1/dustismo-webfont.woff') format('woff'),
          url('ressources/font/menu_1/menu_resto_1/dustismo-webfont.ttf') format('truetype'),
          url('ressources/font/menu_1/menu_resto_1/dustismo-webfont.svg#dustismoregular') format('svg');
@@ -50,29 +48,39 @@ body{
     font-style: normal;
 }
 
-@font-face {
+@font-face { /*nom resto 1*/
 	font-family: 'devonshire-regular';
 	src: url('ressources/font/menu_1/nom_resto_1/Fonts/devonshire-regular.ttf') format('truetype');
 }
 
-@font-face {
+@font-face {/*nom et menu resto 2*/
 	font-family: 'CroissantOne-Regular';
 	src: url('ressources/font/menu_2/nom_resto_2/CroissantOne-Regular.ttf') format('truetype');
 }
 
-@font-face {
+@font-face {/*nom resto 3*/
 	font-family: 'DancingScript-Regular';
 	src: url('ressources/font/menu_3/nom_resto_3/DancingScript-Regular.otf') format("opentype");
 }
 
-@font-face {
+@font-face {/*menu resto 3 et 4*/
 	font-family: 'worstveldsling';
 	src: url('ressources/font/menu_3/menu_resto_3/Fonts/worstveldsling.ttf') format('truetype');
 }
 
-@font-face {
+@font-face {/*nom resto 4*/
 	font-family: 'KaushanScript-Regular';
 	src: url('ressources/font/menu_4/nom_resto_4/KaushanScript-Regular.otf') format("opentype");
+}
+
+@font-face {/*titre dans page menu*/
+	font-family: 'altehaasgroteskregular';
+	src: url('ressources/font/titre_page_menu/Fonts/altehaasgroteskregular.ttf') format('truetype');
+}
+
+@font-face {/*titre composant menu 1*/
+	font-family: 'fennrg__';
+	src: url('ressources/font/menu_1/composant_menu_1/Fonts/fennrg__.ttf') format('truetype');
 }
 
 /*_    _                      _               
@@ -84,7 +92,7 @@ body{
                                               
                                               */
 
-header{
+header a{
 	background-color: #579c87;
 	color: #fdcb46;
 	text-align: center;
@@ -114,11 +122,11 @@ footer{
 	justify-content: space-between;
 	background-color: #579c87;
 	color: #fdcb46;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	height: 5em;
+	height: 5em;	
 }
 
 footer p{
@@ -131,4 +139,13 @@ footer p{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+footer a{
+	text-decoration: none;
+	color: #fdcb46;
+}
+
+footer a:visited{
+	color: #fdcb46;
 }
