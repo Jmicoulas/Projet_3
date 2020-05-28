@@ -149,3 +149,31 @@ footer a{
 footer a:visited{
 	color: #fdcb46;
 }
+
+/*__  __              _   _                                         _              
+ |  \/  |            | | (_)                                       (_)             
+ | \  / |   ___    __| |  _    __ _    __ _   _   _    ___   _ __   _    ___   ___ 
+ | |\/| |  / _ \  / _` | | |  / _` |  / _` | | | | |  / _ \ | '__| | |  / _ \ / __|
+ | |  | | |  __/ | (_| | | | | (_| | | (_| | | |_| | |  __/ | |    | | |  __/ \__ \
+ |_|  |_|  \___|  \__,_| |_|  \__,_|  \__, |  \__,_|  \___| |_|    |_|  \___| |___/
+                                         | |                                       
+                                         |_|                                       */
+
+@media screen and (max-width: 767px)
+{
+	footer{
+		justify-content: flex-start;
+		height: 4em;
+	}
+
+	footer p{
+		padding: 0px;
+		width: auto;
+		margin: auto;
+		font-size: 1em;
+	}
+
+	footer a{
+		margin: auto;
+	}
+}
