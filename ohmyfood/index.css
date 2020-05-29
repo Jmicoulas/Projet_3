@@ -80,7 +80,12 @@ body{
 
 @font-face {/*titre composant menu 1*/
 	font-family: 'fennrg__';
-	src: url('ressources/font/menu_1/composant_menu_1/Fonts/fennrg__.ttf') format('truetype');
+	src: url('ressources/font/menu_1/composant_menu_1/fennrg__.ttf') format('truetype');
+}
+
+@font-face {/*titre entrée/plat/dessert menu 1*/
+	font-family: 'sfcartoonisthand';
+	src: url('ressources/font/menu_1/titre_partie_menu_1/Fonts/sfcartoonisthand.ttf') format('truetype');
 }
 
 /*_    _                      _               
@@ -170,10 +175,11 @@ footer a:visited{
 		padding: 0px;
 		width: auto;
 		margin: auto;
-		font-size: 1em;
+		font-size: 0.7em;
 	}
 
 	footer a{
 		margin: auto;
 	}
 }
+

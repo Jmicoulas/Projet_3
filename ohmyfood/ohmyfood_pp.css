@@ -187,7 +187,6 @@ body{
 	background-color: #579c87;
 	color: #fdcb46;
 	border-radius: 10px;
-	border: 1px #579c87 solid;
 	width: 13em;
 	height: 2.5em;
 	line-height: 2.5em;
@@ -312,5 +311,28 @@ body{
 
 	#soon{
 		font-size: 1em;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px)
+{
+	#menu_1{
+		width: 45%;
+	}	
+
+	#menu_2{
+		width: 45%;
+	}
+
+	#menu_3{
+		width: 45%;
+	}
+
+	#menu_4{
+		width: 45%;
+	}
+
+	#corps_de_page{
+		margin-bottom: 95px;
 	}
 }
