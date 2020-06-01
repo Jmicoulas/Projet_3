@@ -6,24 +6,23 @@ h1{
 }
 
 #menu{
-	background: #FFF5FE;
+	background: #EDEFEF;
 	margin: 1em 25.5em 10em 25.5em;
 	padding-bottom: 4em;
 	display: flex;
 	flex-direction: column;
-	color: #3D1319;
 	box-shadow: 0 0 10px 5px #E0E0E0;
 }
 
 h2{
 	font-weight: lighter;
 	text-align: center;
-	font-size: 2em;
-	font-family: 'CroissantOne-Regular';
-	background: linear-gradient(to right, #D8852E, #6e4ccc);
+	font-size: 3em;
+	font-family: 'DancingScript-Regular';
+	background: linear-gradient(to right, #0228DD, #0d8bfb);
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
-  	margin: 3em 0em 2em 0em;
+  	margin: 2em 0em 1em 0em;
 }
 
 h3{
@@ -52,12 +51,9 @@ div img{
 }
 								/*ENTREE*/
 
-#titre_entree{
-	color: #C67412;
-}
 
 .menu-3-icone-entree{
-	background: #C67412;
+	background: #0228DD;
 }
 
 #entree div{
@@ -68,16 +64,11 @@ div img{
 #entree p{
 	margin-top: 0;
 	margin-bottom: 20px;
-	color: #C67412;
 }
-								/*PLAT*/
-
-#titre_plat{
-	color: #A56799;
-}								
+								/*PLAT*/		
 
 .menu-3-icone-plat{
-	background: #A56799;
+	background: #0670F3;
 }
 
 #plat div{
@@ -88,23 +79,22 @@ div img{
 #plat p{
 	margin-top: 0;
 	margin-bottom: 20px;
-	color: #A56799;
 }
 
 								/*DESSERT*/
 
-#titre_dessert{
-	color:#6E4CCC;
+.menu-3-icone-dessert{
+	background: #229DF9;
 }
 
-.menu-3-icone-dessert{
-	background: #6E4CCC;
+#dessert div{
+	display: flex;
+	justify-content: space-between;
 }
 
 #dessert p{
 	margin-top: 0;
 	margin-bottom: 20px;
-	color: #6E4CCC;
 }
 
 .price{
@@ -117,8 +107,8 @@ h4{
 	text-align: center;
 	font-size: 1.4em;
 	font-weight: lighter;
-	font-family: 'CroissantOne-Regular';
-	background: linear-gradient(to right, #D8852E, #6e4ccc);
+	font-family: 'DancingScript-Regular';
+	background: linear-gradient(to right, #0228DD, #0d8bfb);
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
 }
