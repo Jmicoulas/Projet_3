@@ -1,0 +1,21 @@
+section{
+	margin-bottom: 8%;	
+	font-family: 'sinkin_sans500_medium';
+}
+
+h1{
+	text-align: center;
+	font-size: 200%;
+}
+
+h2{
+	margin-left: 1em;
+	font-size: 100%
+}
+
+section p{
+	width: 60%;
+	margin:0 0 1em 5em;
+	color: gray;
+}
+

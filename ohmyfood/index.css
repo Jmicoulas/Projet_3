@@ -93,6 +93,11 @@ body{
 	src: url('ressources/font/menu_2/composant_resto_2/NoticiaText-Regular.ttf') format('truetype');
 }
 
+@font-face {/*composant menu 3*/
+	font-family: 'segoePrint';
+	src: url('ressources/font/menu_3/composant_resto_3/segoePrint.ttf') format('truetype');
+}
+
 /*_    _                      _               
  | |  | |                    | |              
  | |__| |   ___    __ _    __| |   ___   _ __ 

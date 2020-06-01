@@ -18,21 +18,23 @@ img{
 	display: flex;
 	flex-direction: column;
 	color: #3D1319;
-	font-family: 'devonshire-regular';
+
 	box-shadow: 0 0 10px 1px #E0E0E0;
 }
 
 h2{
 	font-weight: lighter;
 	text-align: center;
-	font-size: 2em;
+	font-size: 3em;
 	margin: 0;
+	margin-bottom: 15px;
+	font-family: 'devonshire-regular';
 }
 
 h3{
 	text-align: center;
-	font-size: 1.5em;
-	font-family: 'sfcartoonisthand';
+	font-size: 1.7em;
+	font-family: 'segoePrint';
 }
 
 #titre_entrée, #titre_plat, #titre_dessert{
@@ -43,25 +45,26 @@ h3{
 .menu-1-icone-left{
 	width:30%;
     height:15px;
-    margin-top: 30px;
+    margin-top: 4.5%;
     margin-bottom: 0;
 }
 
 .menu-1-icone-right{
 	width:30%;
     height:10px;
-    margin-top: 30px;
+    margin-top: 4.5%;
     margin-bottom: 0;
 }
 
 #entrée, #plat, #dessert{
-	font-family: 'fennrg__';
-	margin: 0 5em 0 4.5em;
+	font-family: 'segoePrint';
+	margin: 0 9% 0 9%;
 }
 
 #entrée div{
 	display: flex;
 	justify-content: space-between;
+	font-size: 1.1em;
 }
 
 #entrée p{
@@ -72,6 +75,7 @@ h3{
 #plat div{
 	display: flex;
 	justify-content: space-between;
+	font-size: 1.1em;
 }
 
 #plat p{
@@ -82,6 +86,7 @@ h3{
 #dessert p{
 	margin-top: 0;
 	margin-bottom: 20px;
+	font-size: 1.1em;
 }
 
 .price{
@@ -93,8 +98,9 @@ h4{
 	margin: auto;
 	margin-top: 1em;
 	text-align: center;
-	font-size: 1.7em;
+	font-size: 1.9em;
 	font-weight: lighter;
+	font-family: 'devonshire-regular';
 }
 
 h4 img{

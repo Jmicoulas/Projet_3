@@ -60,11 +60,9 @@ body{
 }
 
 #menu_resto_1{
-	font-family: 'dustismoregular';
+	font-family: 'segoePrint';
 	font-weight: bold;
-	font-style: italic;
 	font-size: 1.5em;
-	letter-spacing: 2px;
 	margin: 15px 0 0 0;
 }
 

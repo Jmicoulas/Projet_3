@@ -30,6 +30,7 @@ h3{
 	text-align: center;
 	font-size: 1.2em;
 	font-family: 'NoticiaText-Regular';
+	margin-bottom: 40px; 
 }
 
 #titre_entree, #titre_plat, #titre_dessert{
@@ -48,7 +49,7 @@ div img{
 
 #entree, #plat, #dessert{
 	font-family: 'NoticiaText-Regular';
-	margin: 0 4em 0 3.5em;
+	margin: 0 15% 0 15%;
 }
 								/*ENTREE*/
 

@@ -1,0 +1,135 @@
+h1{
+	font-family: 'altehaasgroteskregular';
+	text-align: center;
+	margin: 1.5em 0 1em 0;
+	font-size: 1.6em;
+}
+
+#menu{
+	margin: 1em 25.5em 10em 25.5em;
+	padding-bottom: 4em;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 10px 5px #E0E0E0;
+}
+
+h2{
+	font-weight: lighter;
+	text-align: center;
+	font-size: 5em;
+	background: linear-gradient(to right, #3D923A, #c4ff8d);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	font-family: 'KaushanScript-Regular';
+  	margin: 1em 0em 1em 0em;
+}
+
+h3{
+	text-align: center;
+	font-size: 1.2em;
+	font-family: 'segoePrint';
+	font-weight: normal;
+}
+
+#titre_entree, #titre_plat, #titre_dessert{
+	display: flex;
+	margin: 0;
+	justify-content: space-around;
+
+}
+
+div img{
+	width:30%;
+    height:18px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+#entree, #plat, #dessert{
+	font-family: 'segoePrint';
+	margin: 0 15% 0 15%;
+}
+								/*ENTREE*/
+
+
+.menu-4-icone-left{
+	background: linear-gradient(to right, #3d923a, #c4ff8d);
+  	-webkit-text-fill-color: transparent;
+}
+
+.menu-4-icone-right{
+	background: linear-gradient(to left, #3d923a, #c4ff8d);
+  	-webkit-text-fill-color: transparent;
+}
+
+#entree div{
+	display: flex;
+	justify-content: space-between;
+}
+
+#entree p{
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+								/*PLAT*/		
+
+#plat div{
+	display: flex;
+	justify-content: space-between;
+}
+
+#plat p{
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+
+								/*DESSERT*/
+
+#dessert div{
+	display: flex;
+	justify-content: space-between;
+}
+
+#dessert p{
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.price{
+	letter-spacing: 1px;
+	font-size: 1.2em;
+}
+
+h4{
+	margin: auto;
+	margin-top: 2em;
+	text-align: center;
+	font-size: 2.4em;
+	font-weight: lighter;
+	background: linear-gradient(to right, #3d923a, #c4ff8d);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	font-family: 'KaushanScript-Regular';
+}
+
+
+
+/*__  __              _   _                                         _              
+ |  \/  |            | | (_)                                       (_)             
+ | \  / |   ___    __| |  _    __ _    __ _   _   _    ___   _ __   _    ___   ___ 
+ | |\/| |  / _ \  / _` | | |  / _` |  / _` | | | | |  / _ \ | '__| | |  / _ \ / __|
+ | |  | | |  __/ | (_| | | | | (_| | | (_| | | |_| | |  __/ | |    | | |  __/ \__ \
+ |_|  |_|  \___|  \__,_| |_|  \__,_|  \__, |  \__,_|  \___| |_|    |_|  \___| |___/
+                                         | |                                       
+                                         |_|                                       */
+
+@media screen and (max-width: 767px)
+{
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px)
+{
+
+}
