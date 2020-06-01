@@ -1,7 +1,7 @@
 h1{
 	font-family: 'altehaasgroteskregular';
 	text-align: center;
-	margin: 1em 0 0.5em 0;
+	margin: 1.5em 0 1em 0;
 	font-size: 1.6em;
 }
 
@@ -13,7 +13,7 @@ img{
 
 #menu{
 	background: #fcdfdb;
-	margin: 1em 3.5em 8em 3.5em;
+	margin: 1em 25.5em 10em 25.5em;
 	padding-bottom: 4em;
 	display: flex;
 	flex-direction: column;
@@ -40,33 +40,53 @@ h3{
 	margin: 0;
 }
 
-#titre_entrée img, #titre_plat img, #titre_dessert img{
+.menu-1-icone-left{
 	width:30%;
-    height:auto;
+    height:15px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.menu-1-icone-right{
+	width:30%;
+    height:10px;
+    margin-top: 30px;
+    margin-bottom: 0;
 }
 
 #entrée, #plat, #dessert{
 	font-family: 'fennrg__';
+	margin: 0 5em 0 4.5em;
+}
+
+#entrée div{
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
-	margin: 0 3em 0 3em;
 }
 
 #entrée p{
 	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+#plat div{
+	display: flex;
+	justify-content: space-between;
 }
 
 #plat p{
 	margin-top: 0;
+	margin-bottom: 20px;
 }
 
 #dessert p{
 	margin-top: 0;
+	margin-bottom: 20px;
 }
 
 .price{
 	font-weight: bold;
+	letter-spacing: 3px;
 }
 
 h4{
@@ -82,4 +102,23 @@ h4 img{
 	margin: auto;
 	position: relative;
 	bottom: -0.3em;
+}
+
+/*__  __              _   _                                         _              
+ |  \/  |            | | (_)                                       (_)             
+ | \  / |   ___    __| |  _    __ _    __ _   _   _    ___   _ __   _    ___   ___ 
+ | |\/| |  / _ \  / _` | | |  / _` |  / _` | | | | |  / _ \ | '__| | |  / _ \ / __|
+ | |  | | |  __/ | (_| | | | | (_| | | (_| | | |_| | |  __/ | |    | | |  __/ \__ \
+ |_|  |_|  \___|  \__,_| |_|  \__,_|  \__, |  \__,_|  \___| |_|    |_|  \___| |___/
+                                         | |                                       
+                                         |_|                                       */
+
+@media screen and (max-width: 767px)
+{
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px)
+{
+
 }
