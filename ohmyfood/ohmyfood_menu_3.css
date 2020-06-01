@@ -1,0 +1,145 @@
+h1{
+	font-family: 'altehaasgroteskregular';
+	text-align: center;
+	margin: 1.5em 0 1em 0;
+	font-size: 1.6em;
+}
+
+#menu{
+	background: #FFF5FE;
+	margin: 1em 25.5em 10em 25.5em;
+	padding-bottom: 4em;
+	display: flex;
+	flex-direction: column;
+	color: #3D1319;
+	box-shadow: 0 0 10px 5px #E0E0E0;
+}
+
+h2{
+	font-weight: lighter;
+	text-align: center;
+	font-size: 2em;
+	font-family: 'CroissantOne-Regular';
+	background: linear-gradient(to right, #D8852E, #6e4ccc);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	margin: 3em 0em 2em 0em;
+}
+
+h3{
+	text-align: center;
+	font-size: 1.2em;
+	font-family: 'NoticiaText-Regular';
+}
+
+#titre_entree, #titre_plat, #titre_dessert{
+	display: flex;
+	margin: 0;
+	justify-content: space-around;
+
+}
+
+div img{
+	width:30%;
+    height:18px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+#entree, #plat, #dessert{
+	font-family: 'NoticiaText-Regular';
+	margin: 0 4em 0 3.5em;
+}
+								/*ENTREE*/
+
+#titre_entree{
+	color: #C67412;
+}
+
+.menu-3-icone-entree{
+	background: #C67412;
+}
+
+#entree div{
+	display: flex;
+	justify-content: space-between;
+}
+
+#entree p{
+	margin-top: 0;
+	margin-bottom: 20px;
+	color: #C67412;
+}
+								/*PLAT*/
+
+#titre_plat{
+	color: #A56799;
+}								
+
+.menu-3-icone-plat{
+	background: #A56799;
+}
+
+#plat div{
+	display: flex;
+	justify-content: space-between;
+}
+
+#plat p{
+	margin-top: 0;
+	margin-bottom: 20px;
+	color: #A56799;
+}
+
+								/*DESSERT*/
+
+#titre_dessert{
+	color:#6E4CCC;
+}
+
+.menu-3-icone-dessert{
+	background: #6E4CCC;
+}
+
+#dessert p{
+	margin-top: 0;
+	margin-bottom: 20px;
+	color: #6E4CCC;
+}
+
+.price{
+	letter-spacing: 1px;
+}
+
+h4{
+	margin: auto;
+	margin-top: 1em;
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: lighter;
+	font-family: 'CroissantOne-Regular';
+	background: linear-gradient(to right, #D8852E, #6e4ccc);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+
+
+/*__  __              _   _                                         _              
+ |  \/  |            | | (_)                                       (_)             
+ | \  / |   ___    __| |  _    __ _    __ _   _   _    ___   _ __   _    ___   ___ 
+ | |\/| |  / _ \  / _` | | |  / _` |  / _` | | | | |  / _ \ | '__| | |  / _ \ / __|
+ | |  | | |  __/ | (_| | | | | (_| | | (_| | | |_| | |  __/ | |    | | |  __/ \__ \
+ |_|  |_|  \___|  \__,_| |_|  \__,_|  \__, |  \__,_|  \___| |_|    |_|  \___| |___/
+                                         | |                                       
+                                         |_|                                       */
+
+@media screen and (max-width: 767px)
+{
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px)
+{
+
+}

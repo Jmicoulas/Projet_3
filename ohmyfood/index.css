@@ -88,6 +88,11 @@ body{
 	src: url('ressources/font/menu_1/titre_partie_menu_1/Fonts/sfcartoonisthand.ttf') format('truetype');
 }
 
+@font-face {/*composant menu 2*/
+	font-family: 'NoticiaText-Regular';
+	src: url('ressources/font/menu_2/composant_resto_2/NoticiaText-Regular.ttf') format('truetype');
+}
+
 /*_    _                      _               
  | |  | |                    | |              
  | |__| |   ___    __ _    __| |   ___   _ __ 
