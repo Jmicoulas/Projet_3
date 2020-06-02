@@ -1,11 +1,14 @@
 section{
 	margin-bottom: 8%;	
 	font-family: 'sinkin_sans500_medium';
+	text-align: center;
 }
 
 h1{
 	text-align: center;
 	font-size: 200%;
+	margin-bottom: 2em;
+	text-decoration: underline;
 }
 
 h2{
@@ -14,8 +17,7 @@ h2{
 }
 
 section p{
-	width: 60%;
-	margin:0 0 1em 5em;
+	margin: 3em 10em 3em 10em;
 	color: gray;
 }
 

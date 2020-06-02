@@ -17,12 +17,12 @@ h1{
 h2{
 	font-weight: lighter;
 	text-align: center;
-	font-size: 3em;
+	font-size: 5em;
 	font-family: 'DancingScript-Regular';
 	background: linear-gradient(to right, #0228DD, #0d8bfb);
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
-  	margin: 2em 0em 1em 0em;
+  	margin: 1em 0em 1em 0em;
 }
 
 h3{
@@ -107,7 +107,7 @@ h4{
 	margin: auto;
 	margin-top: 1em;
 	text-align: center;
-	font-size: 1.4em;
+	font-size: 2em;
 	font-weight: lighter;
 	font-family: 'DancingScript-Regular';
 	background: linear-gradient(to right, #0228DD, #0d8bfb);
