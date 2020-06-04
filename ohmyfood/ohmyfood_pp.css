@@ -334,3 +334,10 @@ body{
 		margin-bottom: 95px;
 	}
 }
+
+@media screen and (min-width: 1440px)
+{
+	#corps_de_page{
+		margin-bottom: 100px;
+	}
+}
