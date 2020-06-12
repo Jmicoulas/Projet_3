@@ -1,0 +1,45 @@
+.btn:hover + .box{
+    transform: scale(2);
+   }
+
+.btn:hover span{
+    transform: translateY(0);
+   }
+
+.btn{
+	background: #011c37;
+    color: #15DEA5;
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 1.85rem 3rem;
+    border-radius: 10rem;
+    transform: scale(1);
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.box{
+	background: red;
+	width: 10em;
+	height:10em;
+	transition: transform 300ms ease-in-out;
+	margin: auto;
+}
+
+span{
+	display: inline-block;
+    transform: translateY(250%);
+    transition: transform 280ms ease-out 50ms;
+}
+
+/*
+- Rajouté un + entre 2 balises permet que la 1ere balise actionne la transition avec la bonne pseudoclasse sur la 2ieme balise seulement dans le cas où la 1er est bien avant la 2ieme.
+- La fonction "scale()" permet de modifié la taille sachant que "scale(1)" est la taille normale à 100%;
+		On peut aussi modifié les deux axes; x (la largeur) et y (la longueur) en les rentrant comme ceci : "scale(x,y);";
+		Quand on veut modifier l’échelle dans une seule direction, on peut utiliser les fonctions  "scaleX()"  et  "scaleY()";
+- la fonction "translate" modifie la position d'un élément, il prend lui aussi les 2 valeurs d'axes : x et y;
+		Quand on veut modifier la position dans une seule direction, on peut utiliser les fonctions  "translateX()"  et  "translateY()";
+*/

@@ -32,6 +32,7 @@ body{
 	text-align: center;
 	justify-content: center;
 	height: 21em;
+	overflow: hidden;
 }
 
 #menu_1{
@@ -45,6 +46,13 @@ body{
 	align-items: center;
 	flex-direction: column;
 	text-decoration: none;
+	opacity: 0.5;
+	transition: all 250ms ease-in-out;
+}
+
+#menu_1:hover{
+	transform: scale(1.25);
+	opacity: 1;
 }
 
 
@@ -75,6 +83,13 @@ body{
 	align-items: center;
 	flex-direction: column;
 	text-decoration: none;
+	opacity: 0.5;
+	transition: all 250ms ease-in-out;
+}
+
+#menu_2:hover{
+	transform: scale(1.25);
+	opacity: 1;
 }
 
 #nom_resto_2{
@@ -109,6 +124,7 @@ body{
 	text-align: center;
 	justify-content: center;
 	height: 21em;
+	overflow: hidden;
 }
 
 #menu_3{
@@ -120,7 +136,13 @@ body{
 	align-items: center;
 	flex-direction: column;
 	text-decoration: none;
+	opacity: 0.5;
+	transition: all 250ms ease-in-out;
+}
 
+#menu_3:hover{
+	transform: scale(1.25);
+	opacity: 1;
 }
 
 #nom_resto_3{
@@ -149,6 +171,13 @@ body{
 	align-items: center;
 	flex-direction: column;
 	text-decoration: none;
+	opacity: 0.5;
+	transition: all 300ms ease-in-out;
+}
+
+#menu_4:hover{
+	transform: scale(1.25);
+	opacity: 1;
 }
 
 #nom_resto_4{
@@ -190,6 +219,32 @@ body{
 	line-height: 2.5em;
 	position: relative;
 	bottom: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#dot_1{
+	border-radius: 50%;
+	background: #fdcb46;
+	width: 10px;
+	height: 10px;
+	line-height: 0;
+}
+
+#dot_2{
+	border-radius: 50%;
+	background: #fdcb46;
+	width: 10px;
+	height: 10px;
+}
+
+#dot_3{
+	border-radius: 50%;
+	background: #fdcb46;
+	width: 10px;
+	height: 10px;
 }
 
 /*__  __              _   _                                         _              

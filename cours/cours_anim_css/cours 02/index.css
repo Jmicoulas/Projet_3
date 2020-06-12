@@ -1,7 +1,6 @@
+
 .form {
-    &__group {
-        & input {
-        border: 2px solid #FFFFFF;
+        border: 2px solid white;
         border-radius: 100rem;
         color: #6300a0;
         font-family: 'Montserrat', sans-serif;
@@ -9,9 +8,43 @@
         outline: none;
         padding: .5rem 1.5rem;
         width: 100%;
-        &:focus {
-            border: 2px solid #6300a0;
-            }
-        }
-    }
 }
+
+input{
+    border: 2px solid white;
+    border-radius: 100rem;
+    color: #6300a0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    outline: none;
+    padding: .5rem 1.5rem;
+    width: 100%;
+    transition: background-color 500ms;
+}
+
+input:focus {
+    border: 2px solid #6300a0;
+}
+
+input:not(:focus):invalid {
+    background: #b20a37;
+    border: 2px solid #b20a37;
+    color: #fff;
+}
+    
+
+
+/*
+Liste des pseudoclasses les plus couramment utilisées pour déclencher des transitions :
+    - :hover, qui est déclenché au survol de la souris ;
+    - :active, activé au clic de l'utilisateur (le plus souvent pour les liens et boutons) ;
+    - :focus, qui se déclenche lorsque son élément reçoit le focus (soit il est sélectionné à l'aide du clavier, soit il est activé avec la souris) ;
+    - :valid, dont la validation du contenu s'effectue correctement par rapport au type de donnée attendu ;
+    - :invalid, qui inversement, correspond à un élément dont la validation du contenu ne s'effectue pas correctement par rapport au type de donnée attendu ;
+    - :not(), qui correspond à la négation. Elle prend un sélecteur en argument et permet de cibler les éléments qui ne sont pas représentés par cet argument ;
+    - :checked, qui correspond aux input de type checkbox, option ou radio qui sont cochés ;
+    - :enabled, un élément avec lequel on peut interagir ;
+    - :disabled, qui correspond à un élément dont l'interaction a été bloquée.
+
+Le style est appliqué si l’input n’est pas en état  :focus  et si  : invalid  est valider.
+*/
