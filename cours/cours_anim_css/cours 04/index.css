@@ -1,10 +1,7 @@
 .btn:hover + .box{
-    transform: scale(2);
+    transform: skew(-50deg);
    }
 
-.btn:hover span{
-    transform: translateY(0);
-   }
 
 .btn{
 	background: #011c37;
@@ -25,14 +22,11 @@
 	background: red;
 	width: 10em;
 	height:10em;
-	transition: transform 300ms ease-in-out;
 	margin: auto;
-}
-
-span{
-	display: inline-block;
-    transform: translateY(250%);
-    transition: transform 280ms ease-out 50ms;
+    text-align: center;
+    line-height: 10em;
+    overflow:hidden;
+    transition:transform 330ms ease-in-out;
 }
 
 /*
@@ -40,6 +34,16 @@ span{
 - La fonction "scale()" permet de modifié la taille sachant que "scale(1)" est la taille normale à 100%;
 		On peut aussi modifié les deux axes; x (la largeur) et y (la longueur) en les rentrant comme ceci : "scale(x,y);";
 		Quand on veut modifier l’échelle dans une seule direction, on peut utiliser les fonctions  "scaleX()"  et  "scaleY()";
-- la fonction "translate" modifie la position d'un élément, il prend lui aussi les 2 valeurs d'axes : x et y;
+- La fonction "translate()" modifie la position d'un élément, il prend lui aussi les 2 valeurs d'axes : x et y;
 		Quand on veut modifier la position dans une seule direction, on peut utiliser les fonctions  "translateX()"  et  "translateY()";
+- La fonction "rotate()"permet de faire pivoter un élément sur lui-même.
+        On peut modifié sa valeur avec deux unités différentes : en degrès (deg) ou en nombre de tours (turn).
+- La fonction "skew()" incline l'élément visé horizontalement et/ou verticalement déclaré en deg.
+        il peut lui aussi prendre les valeurs x ou y (ex:"skewX(40deg)")
+- On peut combiner plusieurs fonctions en les séparant d'espace mais l'ordre dans lequel ils sont inscrit importe et
+        peut provoqué des érreurs. Ex: "transform: scale(2) translateX(200px) rotate(1turn);"
+-Il existe aussi des transformations en 3D, ressemblant beaucoup aux fonctions 2d, elles declarent en plus l'axe Z(ex:"scaleZ()" ou "scale3d()")
+    Une autre valeur est essentiel pour la 3D, la fonction "perspective()" qui indique au navigateur à quelle "distance" se trouve le spectateur. 
+        Plus un objet est proche, plus le mouvement aura l’air important, alors qu’à l’inverse, un objet distant semblera plus statique.
 */
+

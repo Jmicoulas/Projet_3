@@ -1,0 +1,43 @@
+.btn{
+	background: cyan;
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 1.85rem 3rem;
+    border-radius: 10rem;
+    transform: scale(1);
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.progress{
+    border:1px solid darkblue;
+    width: 50em;
+    height: 1em;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.progress__bar{
+    background: cyan;
+    width: 49.8em;
+    height: 0.8em;
+    margin: auto;
+    transform:scaleX(0);
+    transition:transform 2000ms cubic-bezier(.32,0,.07,1);
+    transform-origin: left;
+}
+
+.btn:active+.progress>.progress__bar{
+    transform:scaleX(1)
+}
+
+/*
+- Par défaut, les transistions partent du centre de l'élément cible.
+    "transform-origin: " permet de choisir en pourcentage de le axe X et Y ou avec des mots-clés comme left, top, etc
+    En déclarant le valeur de l'axe Z, un effet de 3d est rajouté
+*/
