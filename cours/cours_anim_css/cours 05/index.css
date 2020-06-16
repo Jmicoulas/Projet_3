@@ -39,5 +39,5 @@
 /*
 - Par défaut, les transistions partent du centre de l'élément cible.
     "transform-origin: " permet de choisir en pourcentage de le axe X et Y ou avec des mots-clés comme left, top, etc
-    En déclarant le valeur de l'axe Z, un effet de 3d est rajouté
+        En déclarant le valeur de l'axe Z, un effet de 3d est rajouté
 */
