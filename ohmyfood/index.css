@@ -1,14 +1,14 @@
-/*           _   _ 
+/*           _   _
      /\     | | | |
     /  \    | | | |
    / /\ \   | | | |
   / ____ \  | | | |
  /_/    \_\ |_| |_|
-                   
+
                    */
 
 * {
-	-moz-box-sizing: border-box; 
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
@@ -17,13 +17,13 @@ body{
 }
 
 
-/*______                   _   
- |  ____|                 | |  
- | |__      ___    _ __   | |_ 
+/*______                   _
+ |  ____|                 | |
+ | |__      ___    _ __   | |_
  |  __|    / _ \  | '_ \  | __|
- | |      | (_) | | | | | | |_ 
+ | |      | (_) | | | | | | |_
  |_|       \___/  |_| |_|  \__|
-                               
+
                                */
 
 @font-face { /*Pour le Footer + soon*/
@@ -98,13 +98,13 @@ body{
 	src: url('ressources/font/menu_3/composant_resto_3/segoePrint.ttf') format('truetype');
 }
 
-/*_    _                      _               
- | |  | |                    | |              
- | |__| |   ___    __ _    __| |   ___   _ __ 
+/*_    _                      _
+ | |  | |                    | |
+ | |__| |   ___    __ _    __| |   ___   _ __
  |  __  |  / _ \  / _` |  / _` |  / _ \ | '__|
- | |  | | |  __/ | (_| | | (_| | |  __/ | |   
- |_|  |_|  \___|  \__,_|  \__,_|  \___| |_|   
-                                              
+ | |  | | |  __/ | (_| | | (_| | |  __/ | |
+ |_|  |_|  \___|  \__,_|  \__,_|  \___| |_|
+
                                               */
 
 header a{
@@ -123,13 +123,13 @@ header img{
 }
 
 
-/*______                   _                 
- |  ____|                 | |                
- | |__      ___     ___   | |_    ___   _ __ 
+/*______                   _
+ |  ____|                 | |
+ | |__      ___     ___   | |_    ___   _ __
  |  __|    / _ \   / _ \  | __|  / _ \ | '__|
- | |      | (_) | | (_) | | |_  |  __/ | |   
- |_|       \___/   \___/   \__|  \___| |_|   
-                                             
+ | |      | (_) | | (_) | | |_  |  __/ | |
+ |_|       \___/   \___/   \__|  \___| |_|
+
                                              */
 
 footer{
@@ -141,7 +141,7 @@ footer{
 	bottom: 0;
 	left: 0;
 	right: 0;
-	height: 5em;	
+	height: 5em;
 }
 
 footer p{
@@ -165,13 +165,73 @@ footer a:visited{
 	color: #fdcb46;
 }
 
-/*__  __              _   _                                         _              
- |  \/  |            | | (_)                                       (_)             
- | \  / |   ___    __| |  _    __ _    __ _   _   _    ___   _ __   _    ___   ___ 
+#contact:hover{
+  animation: contact 800ms;
+  animation-iteration-count: infinite;
+}
+
+@keyframes contact{
+  0% { transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% { transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% { transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% { transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% { transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% { transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% { transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% { transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% { transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% { transform: translate(1px, 2px) rotate(0deg);
+   }
+  100% { transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+#mentions_legales:hover{
+  animation: ml 800ms;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ml{
+  0% { transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% { transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% { transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% { transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% { transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% { transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% { transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% { transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% { transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% { transform: translate(1px, 2px) rotate(0deg);
+   }
+  100% { transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+/*__  __              _   _                                         _
+ |  \/  |            | | (_)                                       (_)
+ | \  / |   ___    __| |  _    __ _    __ _   _   _    ___   _ __   _    ___   ___
  | |\/| |  / _ \  / _` | | |  / _` |  / _` | | | | |  / _ \ | '__| | |  / _ \ / __|
  | |  | | |  __/ | (_| | | | | (_| | | (_| | | |_| | |  __/ | |    | | |  __/ \__ \
  |_|  |_|  \___|  \__,_| |_|  \__,_|  \__, |  \__,_|  \___| |_|    |_|  \___| |___/
-                                         | |                                       
+                                         | |
                                          |_|                                       */
 
 @media screen and (max-width: 767px)

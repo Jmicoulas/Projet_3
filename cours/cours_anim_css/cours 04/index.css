@@ -41,9 +41,9 @@
 - La fonction "skew()" incline l'élément visé horizontalement et/ou verticalement déclaré en deg.
         il peut lui aussi prendre les valeurs x ou y (ex:"skewX(40deg)")
 - On peut combiner plusieurs fonctions en les séparant d'espace mais l'ordre dans lequel ils sont inscrit importe et
-        peut provoqué des érreurs. Ex: "transform: scale(2) translateX(200px) rotate(1turn);"
+        peut provoqué des erreurs. Ex: "transform: scale(2) translateX(200px) rotate(1turn);"
 -Il existe aussi des transformations en 3D, ressemblant beaucoup aux fonctions 2d, elles declarent en plus l'axe Z(ex:"scaleZ()" ou "scale3d()")
-    Une autre valeur est essentiel pour la 3D, la fonction "perspective()" qui indique au navigateur à quelle "distance" se trouve le spectateur. 
+    Une autre valeur est essentiel pour la 3D, la fonction "perspective()" qui indique au navigateur à quelle "distance" se trouve le spectateur.
         Plus un objet est proche, plus le mouvement aura l’air important, alors qu’à l’inverse, un objet distant semblera plus statique.
 */
 

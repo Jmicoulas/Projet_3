@@ -1,1 +1,1 @@
-.btn{border-radius:2rem;background-color:#15DEA5;position:relative;z-index:1}.btn:hover::after{opacity:1}.btn::after{content:"";position:absolute;top:0;right:0;bottom:0;left:0;background-color:#13c794;opacity:0;z-index:-1;transition:opacity 250ms}
+.progress__bar{animation:progress-bar 1000ms}@keyframes progress-bar{0%{transform:scaleX(0);opacity:.1}17%{transform:scaleX(0.18)}24%{transform:scaleX(0.4)}46%{transform:scaleX(0.81)}85%,100%{opacity:1}100%{transform:scaleX(1)}}
