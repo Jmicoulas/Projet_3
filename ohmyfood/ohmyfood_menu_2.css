@@ -30,21 +30,20 @@ h3{
 	text-align: center;
 	font-size: 1.2em;
 	font-family: 'NoticiaText-Regular';
-	margin-bottom: 40px; 
+	position: relative;
+	margin: 0;
 }
 
 #titre_entree, #titre_plat, #titre_dessert{
 	display: flex;
-	margin: 0;
+	margin-bottom: 25px;
 	justify-content: space-around;
-
 }
 
 div img{
 	width:30%;
     height:18px;
-    margin-top: 25px;
-    margin-bottom: 0;
+    margin:auto;
 }
 
 #entree, #plat, #dessert{
@@ -71,11 +70,28 @@ div img{
 	margin-bottom: 20px;
 	color: #C67412;
 }
+
+#titre_entree h3:before{
+	content:"";
+	position:absolute;
+	width:100%;
+	height:3px;
+	bottom:0;
+	left:0;
+	background-color:#C67412;
+	transform:scaleX(0);
+	transform-origin: left;
+	transition:all 800ms ease-in-out 0s
+}
+
+#titre_entree h3:hover:before{
+	transform:scaleX(1)
+}
 								/*PLAT*/
 
 #titre_plat{
 	color: #A56799;
-}								
+}
 
 .menu-2-icone-plat{
 	background: #A56799;
@@ -92,6 +108,24 @@ div img{
 	color: #A56799;
 }
 
+#titre_plat h3:before{
+	content:"";
+	position:absolute;
+	width:100%;
+	height:3px;
+	bottom:0;
+	left:0;
+	background-color:#A56799;
+	transform:scaleX(0);
+	transform-origin: left;
+	transition:all 600ms ease-in-out;
+}
+
+#titre_plat h3:hover:before{
+	visibility:visible;
+	transform:scaleX(1)
+}
+
 								/*DESSERT*/
 
 #titre_dessert{
@@ -100,6 +134,24 @@ div img{
 
 .menu-2-icone-dessert{
 	background: #6E4CCC;
+}
+
+#titre_dessert h3:before{
+	content:"";
+	position:absolute;
+	width:100%;
+	height:3px;
+	bottom:0;
+	left:0;
+	background-color:#6E4CCC;
+	transform:scaleX(0);
+	transform-origin: left;
+	transition:all 600ms ease-in-out;
+	border-radius: 15%;
+}
+
+#titre_dessert h3:hover:before{
+	transform:scaleX(1)
 }
 
 #dessert p{
@@ -124,15 +176,17 @@ h4{
   	-webkit-text-fill-color: transparent;
 }
 
+.dot_1, .dot_2, .dot_3{
+	display: none;
+}
 
-
-/*__  __              _   _                                         _              
- |  \/  |            | | (_)                                       (_)             
- | \  / |   ___    __| |  _    __ _    __ _   _   _    ___   _ __   _    ___   ___ 
+/*__  __              _   _                                         _
+ |  \/  |            | | (_)                                       (_)
+ | \  / |   ___    __| |  _    __ _    __ _   _   _    ___   _ __   _    ___   ___
  | |\/| |  / _ \  / _` | | |  / _` |  / _` | | | | |  / _ \ | '__| | |  / _ \ / __|
  | |  | | |  __/ | (_| | | | | (_| | | (_| | | |_| | |  __/ | |    | | |  __/ \__ \
  |_|  |_|  \___|  \__,_| |_|  \__,_|  \__, |  \__,_|  \___| |_|    |_|  \___| |___/
-                                         | |                                       
+                                         | |
                                          |_|                                       */
 
 @media screen and (max-width: 767px)/*Mobile*/
@@ -142,7 +196,7 @@ h4{
 	}
 
 	#menu{
-		margin: 1em 1em 6em 1em; 
+		margin: 1em 1em 6em 1em;
 	}
 
 	h3{
@@ -201,7 +255,7 @@ h4{
 @media screen and (min-width: 768px) and (max-width: 1199px)/*tablette*/
 {
 	#menu{
-		margin: 1em 1em 8em 1em; 
+		margin: 1em 1em 8em 1em;
 	}
 }
 
@@ -209,6 +263,6 @@ h4{
 @media screen and (min-width: 2000px)/*Ordi 4K*/
 {
 	#menu{
-		margin: 2em 45em 8em 45em; 
+		margin: 2em 45em 8em 45em;
 	}
 }

@@ -30,20 +30,19 @@ h3{
 	font-size: 1.2em;
 	font-family: 'segoePrint';
 	font-weight: normal;
+	position: relative;
 }
 
 #titre_entree, #titre_plat, #titre_dessert{
 	display: flex;
 	margin: 0;
 	justify-content: space-around;
-
 }
 
 div img{
 	width:30%;
     height:18px;
-    margin-top: 25px;
-    margin-bottom: 0;
+    margin:auto;
 }
 
 #entree, #plat, #dessert{
@@ -51,7 +50,6 @@ div img{
 	margin: 0 15% 0 15%;
 }
 								/*ENTREE*/
-
 
 .menu-3-icone-entree{
 	background: #0228DD;
@@ -66,7 +64,25 @@ div img{
 	margin-top: 0;
 	margin-bottom: 20px;
 }
-								/*PLAT*/		
+
+#titre_entree h3:before{
+	content:"";
+	position:absolute;
+	width:100%;
+	height:2px;
+	bottom:0;
+	left:0;
+	background-color:#0228DD;
+	transform:scaleX(0);
+	transform-origin: left;
+	transition:all 600ms ease-in-out;
+}
+
+#titre_entree h3:hover:before{
+	visibility:visible;
+	transform:scaleX(1)
+}
+								/*PLAT*/
 
 .menu-3-icone-plat{
 	background: #0670F3;
@@ -80,6 +96,23 @@ div img{
 #plat p{
 	margin-top: 0;
 	margin-bottom: 20px;
+}
+
+#titre_plat h3:before{
+	content:"";
+	position:absolute;
+	width:100%;
+	height:2px;
+	bottom:0;
+	left:0;
+	background-color: #0670F3;
+	transform:scaleX(0);
+	transform-origin: left;
+	transition:all 800ms ease-in-out 0s
+}
+
+#titre_plat h3:hover:before{
+	transform:scaleX(1)
 }
 
 								/*DESSERT*/
@@ -115,23 +148,85 @@ h4{
   	-webkit-text-fill-color: transparent;
 }
 
+#titre_dessert h3:before{
+	content:"";
+	position:absolute;
+	width:100%;
+	height:2px;
+	bottom:0;
+	left:0;
+	background-color:#229DF9;
+	transform:scaleX(0);
+	transform-origin: left;
+	transition:all 600ms ease-in-out;
+}
 
+#titre_dessert h3:hover:before{
+	visibility:visible;
+	transform:scaleX(1)
+}
 
-/*__  __              _   _                                         _              
- |  \/  |            | | (_)                                       (_)             
- | \  / |   ___    __| |  _    __ _    __ _   _   _    ___   _ __   _    ___   ___ 
+.dot_1, .dot_2, .dot_3{
+	display: none;
+}
+/*__  __              _   _                                         _
+ |  \/  |            | | (_)                                       (_)
+ | \  / |   ___    __| |  _    __ _    __ _   _   _    ___   _ __   _    ___   ___
  | |\/| |  / _ \  / _` | | |  / _` |  / _` | | | | |  / _ \ | '__| | |  / _ \ / __|
  | |  | | |  __/ | (_| | | | | (_| | | (_| | | |_| | |  __/ | |    | | |  __/ \__ \
  |_|  |_|  \___|  \__,_| |_|  \__,_|  \__, |  \__,_|  \___| |_|    |_|  \___| |___/
-                                         | |                                       
+                                         | |
                                          |_|                                       */
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 767px)/*Mobile*/
 {
+	h2{
+		font-size: 2em;
+	}
 
+	#menu{
+		margin: 1em 1em 6em 1em;
+	}
+
+	h3{
+		font-size: 1em;
+		margin: 0;
+	}
+
+	#entree div, #plat div, #dessert div{
+	display: flex;
+	flex-direction: column;
+	font-size: 0.8em;
+	text-align: center;
+	}
+
+	.dot_1, .dot_2, .dot_3{
+	height: 10px;
+	width: 10px;
+	background-color: #0228DD;
+	border-radius: 50%;
+	display: inline-block;
+	margin: auto;
+	margin-bottom: 1em;
+	margin-top: 2em;
+	}
+
+	#titre_entree, #titre_plat, #titre_dessert{
+		justify-content: center;
+	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px)
+@media screen and (min-width: 768px) and (max-width: 1199px)/*tablette*/
 {
+	#menu{
+		margin: 1em 1em 8em 1em;
+	}
+}
 
+
+@media screen and (min-width: 2000px)/*Ordi 4K*/
+{
+	#menu{
+		margin: 2em 45em 8em 45em;
+	}
 }
