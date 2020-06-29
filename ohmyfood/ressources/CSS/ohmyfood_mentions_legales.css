@@ -1,5 +1,5 @@
 section{
-	margin-bottom: 8%;	
+	margin-bottom: 8%;
 	font-family: 'sinkin_sans500_medium';
 	text-align: center;
 }
@@ -21,3 +21,13 @@ section p{
 	color: gray;
 }
 
+@media screen and (max-width: 767px)/*Mobile*/
+{
+	section p{
+		margin: 1px 25px 20px 25px;
+	}
+
+	section{
+		margin-bottom: 90px;
+	}
+}

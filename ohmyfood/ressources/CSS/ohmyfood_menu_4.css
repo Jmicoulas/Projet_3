@@ -55,12 +55,15 @@ div img{
 
 .menu-4-icone-left{
 	background: linear-gradient(to right, #3d923a, #c4ff8d);
-  	-webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  margin: auto;
+
 }
 
 .menu-4-icone-right{
 	background: linear-gradient(to left, #3d923a, #c4ff8d);
-  	-webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  margin: auto;
 }
 
 #entree div{
