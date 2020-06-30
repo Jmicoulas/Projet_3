@@ -154,6 +154,11 @@ div img{
 	transform:scaleX(1)
 }
 
+#dessert div{
+	display: flex;
+	justify-content: space-between;
+}
+
 #dessert p{
 	margin-top: 0;
 	margin-bottom: 20px;
