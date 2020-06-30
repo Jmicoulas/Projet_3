@@ -209,7 +209,7 @@ h4{
 		margin: 0;
 	}
 
-	#entree div, #plat div, #dessert{
+	#entree div, #plat div, #dessert div{
 	display: flex;
 	flex-direction: column;
 	font-size: 0.8em;
